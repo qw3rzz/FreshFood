@@ -1,0 +1,121 @@
+/* Laptopy a běžné desktopy */
+@media (max-width: 1025px) {
+    body {
+        background: white;
+    }
+}
+
+/* Tablety a menší notebooky */
+@media (max-width: 992px) {
+    body {
+        background: white;
+    }
+}
+
+/* Telefony na šířku, menší tablety */
+@media (max-width: 768px) {
+    body {
+        background: white;
+    }
+}
+
+/* Telefony (mobilní zařízení) */
+@media (max-width: 576px) {
+    body {
+        background: blueviolet;
+    }
+    header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    #logo {
+        transform: scale(150%);
+        display: flex;
+        margin-top: 100px;
+    }
+
+    nav {
+        width: 45%;
+        margin-left: 20px;
+
+        ul li {
+            display: flex;
+            border-bottom: 2px dashed black;
+            justify-content: center;
+            align-items: center;
+
+
+            a {
+               padding: 48px;
+                font-size: 2rem;
+
+            }
+        }
+    }
+
+    nav #home a {
+        margin-top: 15px;
+        background-image: none;
+    }
+
+    nav #blogg a {
+        background-image: none;
+    }
+
+    nav #recepty a {
+        background-image: none;
+    }
+
+    nav #kontakty a {
+        background-image: none;
+    }
+
+    nav #eshop a {
+        background-image: none;
+    }
+
+
+    #slide {
+        margin-top: 50px;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        font-size: 30px;
+    }
+    #slide h2 {
+        margin-top: 100px;!important;
+    }
+
+    #uvod {
+        width: 80%;
+    }
+
+    #bocni {
+        display: none;
+    }
+    #blog {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #newsletter {
+        display: flex;
+        flex-direction: column;
+        transform: scale(150%);
+        margin-left: 150px;
+        margin-top: 50px;
+    }
+    #submit {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+
+
+
